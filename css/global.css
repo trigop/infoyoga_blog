@@ -1,1 +1,25 @@
 /* This file will hold the main styles for your website. */
+
+/*Head*/
+#zone-user-wrapper{
+  background-color: #111;
+  margin-bottom: 15px;
+  padding: 7px 0;
+}
+
+#region-user-first{
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+#region-user-first a{
+  text-decoration: none;
+  color: red;
+}
+
+
+#region-user-first a:hover{
+  text-decoration: underline;
+  color: red;
+}

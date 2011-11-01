@@ -1,4 +1,35 @@
 /* This file will hold the main styles for your website. */
+/*Reset*/
+ul.inline li {
+  padding: 0;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: #F7472E;
+  
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/*General*/
+h3{
+  font-size: 22px;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'AllerRegular', Arial, sans-serif;
+  font-weight: normal;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+body{
+  color: #111;
+  font-family: Arial, sans-serif;
+}
 
 /*Head*/
 #zone-user-wrapper{
@@ -8,18 +39,168 @@
 }
 
 #region-user-first{
-  color: #FFF;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-size: 11px;
 }
 
 #region-user-first a{
   text-decoration: none;
-  color: red;
+  color: #F7472E;
 }
 
 
 #region-user-first a:hover{
   text-decoration: underline;
-  color: red;
+  color: #F7472E;
+}
+
+#zone-branding-wrapper{
+  border-bottom: 1px dotted #DFDFDF;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+/*Menu navigation*/
+.navigation {
+  float: right;
+}
+
+.navigation li a {
+  font-family: 'AllerRegular', Arial, sans-serif;
+  border-radius: 30px;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.navigation li a:hover {
+  color: #F7472E;
+}
+
+.navigation li a.active {
+  background: none repeat scroll 0 0 #F7472E;
+  color:#FFFFFF;
+}
+
+/*Node*/
+.submitted{
+  text-transform: uppercase;
+  font-family: 'AllerRegular', Arial, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.author{
+  display: block;
+}
+
+.date{
+  color: #CCC;
+}
+
+.node-presentation .node-links ul li a:hover{
+  color: #F7472E;
+  padding: 0;
+  text-decoration: underline;
+  
+}
+
+.field-type-taxonomy-term-reference .field-item{
+  background-color: #F0F0F0;
+  display: inline;
+  margin-right: 20px;
+  padding: 5px;
+  }
+
+.field-type-taxonomy-term-reference .field-item a{
+  color: #111111;
+}  
+
+.field-type-taxonomy-term-reference .field-item a:hover{
+  text-decoration: none;
+  color: #F7472E ;
+}
+
+
+.node-links{
+  
+  margin: 10px 0 10px 0;
+}
+
+
+
+/*Secciones*/
+#section-footer{
+  margin-top: 30px;
+  background-color: #111;
+  padding: 10px 0;
+  color: #FFF;
+}
+#section-footer h2{
+  color: #F7472E;
+}
+
+.node-presentation{
+  
+}
+
+article{
+  padding-top: 20px;
+}
+
+/*Region*/
+#region-sidebar-second li a{
+  color: #111111;
+  display: block;
+  font-family: 'AllerRegular', Arial, sans-serif;
+  font-size: 12px;
+  padding: 5px 7px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#region-sidebar-second li a:hover{
+  color: #F7472E;
+}
+
+#region-sidebar-second li{
+  margin: 0;
+  background-color: #F0f0f0;
+  border-bottom: 1px dotted white;
+}
+
+#region-sidebar-second .block-title{
+  margin-bottom: 10px;
+}
+
+
+/*Paginador*/
+.pager-item{
+  background-color: #F0F0F0;
+  border-radius: 80px 30px 30px 30px;
+  font-size: 10px;
+}
+
+.pager-item a:hover{
+  color: #F7472E;
+}
+
+.pager-current{
+  background-color: #F7472E;
+  border-radius: 80px 30px 30px 30px;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.pager-next, .pager-first, .pager-previous, .pager-last {
+  background-color: #F0F0F0;
+  border-radius: 30px 30px 30px 30px;
+  color: #FFFFFF;
+  font-size: 10px;
 }

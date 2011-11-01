@@ -137,6 +137,9 @@ body{
   color: #f48e01;
 }
 
+.node .field {
+  margin: 20px 0;
+}
 
 
 /*Secciones*/
@@ -147,7 +150,7 @@ body{
   color: #FFF;
 }
 #section-footer h2{
-  color: #F7472E;
+  color: #59772A;
 }
 
 .node-presentation{

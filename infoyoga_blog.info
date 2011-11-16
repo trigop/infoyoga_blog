@@ -1,4 +1,4 @@
-name = 'Infoyoga Theme'
+name = 'Infoyoga Theme para producción'
 description = 'Theme para el blog de infoyoga'
 core = '7.x'
 engine = 'phptemplate'
